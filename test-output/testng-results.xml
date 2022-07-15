@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-15T19:27:38 IST" name="Default suite" finished-at="2022-07-15T19:27:38 IST" duration-ms="82">
+    <groups>
+    </groups>
+    <test started-at="2022-07-15T19:27:38 IST" name="Default test" finished-at="2022-07-15T19:27:38 IST" duration-ms="82">
+      <class name="com.keyword.driven.FirstTestNG">
+        <test-method is-config="true" signature="preRun()[pri:0, instance:com.keyword.driven.FirstTestNG@6221a451]" started-at="2022-07-15T19:27:38 IST" name="preRun" finished-at="2022-07-15T19:27:38 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preRun -->
+        <test-method signature="test1()[pri:0, instance:com.keyword.driven.FirstTestNG@6221a451]" started-at="2022-07-15T19:27:38 IST" name="test1" finished-at="2022-07-15T19:27:38 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:com.keyword.driven.FirstTestNG@6221a451]" started-at="2022-07-15T19:27:38 IST" name="cleanUp" finished-at="2022-07-15T19:27:38 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- com.keyword.driven.FirstTestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

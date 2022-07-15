@@ -4,7 +4,8 @@ public class MainScript {
 
 	public static void main(String[] args) throws Exception {
 		CommonUtility utility = new CommonUtility();
-		String path = "C:\\Users\\chand\\Desktop\\QA\\kdd_excelsheet_testcase.xlsx";
+		String path = System.getProperty("user.dir")+"/kdd_excelsheet_testcase.xlsx";
+		System.out.println(path);
 		String[][] excelData = utility.readExcelData(path);
 		for(int i=1; i<excelData.length;i++) {
 			String functionName = excelData[i][3];
